@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convite: 2º Almoço com o CEO - Live Consultoria</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Variáveis de Cor Live Consultoria */
+        :root {
+            --live-blue: #06192a;
+            --live-green: #00e800;
+            --live-grey: #f4f4f4;
+            --text-dark: #333333;
+        }
+
+        body {
+            font-family: 'Merriweather', serif;
+            background-color: var(--live-grey);
+            margin: 0;
+            padding: 20px;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            background-color: var(--live-blue);
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .header p {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: 400;
+            color: var(--live-green);
+        }
+
+        .content {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .intro-text {
+            font-size: 16px;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .guest-highlight {
+            font-family: 'Poppins', sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--live-blue);
+            margin-bottom: 25px;
+            display: block;
+        }
+
+        .details-box {
+            background-color: #f9f9f9;
+            border-left: 4px solid var(--live-green);
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: left;
+            display: inline-block; /* Para centralizar o bloco */
+        }
+
+        .detail-item {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+        }
+
+        .icon {
+            margin-right: 15px;
+            font-size: 20px;
+            color: var(--live-blue);
+            width: 25px;
+            text-align: center;
+        }
+
+        /* Estilo do Botão de RSVP */
+        .rsvp-button-container {
+            margin-top: 40px;
+        }
+
+        .rsvp-btn {
+            display: inline-block;
+            background-color: var(--live-green);
+            color: var(--live-blue);
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            text-decoration: none;
+            padding: 15px 40px;
+            border-radius: 50px;
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 232, 0, 0.3);
+        }
+
+        .rsvp-btn:hover {
+            background-color: #05c905;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 232, 0, 0.4);
+        }
+
+        .footer {
+            background-color: var(--live-blue);
+            color: #88929b;
+            font-size: 12px;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* Responsividade para celulares */
+        @media (max-width: 480px) {
+            .container {
+                margin: 10px auto;
+            }
+            .header h1 {
+                font-size: 24px;
+            }
+            .rsvp-btn {
+                width: 80%;
+                padding: 15px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Almoço com o CEO</h1>
+            <p>2ª Edição | Conexões Estratégicas</p>
+        </div>
+
+        <div class="content">
+            <p class="intro-text">
+                A Live Consultoria tem a honra de convidá-lo(a) para um encontro exclusivo. Uma oportunidade única de networking qualificado e troca de experiências de alto nível sobre os desafios reais da gestão.
+            </p>
+
+            <span class="guest-highlight">
+                Convidado Especial: Ibrahim Boufleur
+            </span>
+
+            <div class="details-box">
+                <div class="detail-item">
+                    <span class="icon">📅</span>
+                    <span>**Data:** 12 de Dezembro de 2025 (Sexta-feira)</span>
+                </div>
+                <div class="detail-item">
+                    <span class="icon">⏰</span>
+                    <span>**Horário:** 12:15h</span>
+                </div>
+                <div class="detail-item">
+                    <span class="icon">📍</span>
+                    <span>**Local:** Restaurante República da Saúde, Goiânia</span>
+                </div>
+            </div>
+
+             <p style="font-size: 14px; color: #666;">
+                *Vagas limitadas para garantir a qualidade da interação.
+            </p>
+
+            <div class="rsvp-button-container">
+                <a href="#link-para-seu-formulario" target="_blank" class="rsvp-btn">
+                    CONFIRMAR MINHA PRESENÇA
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2025 Live Consultoria. Todos os direitos reservados.<br>
+            Movimento. Clareza. Atitude.
+        </div>
+    </div>
+
+</body>
+</html>
