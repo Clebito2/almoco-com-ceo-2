@@ -71,8 +71,25 @@
             font-size: 22px;
             font-weight: 700;
             color: var(--live-blue);
-            margin-bottom: 25px;
+            margin-bottom: 5px; /* Reduzi a margem para aproximar do tema */
             display: block;
+        }
+
+        /* Novo estilo para o Tema */
+        .theme-highlight {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 600;
+            color: #444;
+            font-style: italic;
+            margin-bottom: 30px;
+            display: block;
+        }
+        
+        .theme-label {
+            color: var(--live-green); /* Destaque sutil para a palavra "Tema" ou aspas se preferir */
+            font-weight: 400;
+            font-size: 16px;
         }
 
         .details-box {
@@ -82,6 +99,7 @@
             margin-bottom: 30px;
             text-align: left;
             display: inline-block;
+            width: 80%; /* Ajuste para garantir alinhamento visual */
         }
 
         .detail-item {
@@ -143,6 +161,9 @@
             .header h1 {
                 font-size: 24px;
             }
+            .details-box {
+                width: 90%;
+            }
             .rsvp-btn {
                 width: 80%;
                 padding: 15px 0;
@@ -166,6 +187,10 @@
             <span class="guest-highlight">
                 Convidado Especial: Ibrahim Boufleur
             </span>
+            
+            <span class="theme-highlight">
+                <span class="theme-label">Tema:</span> "De líder ao CEO, uma jornada de transformação"
+            </span>
 
             <div class="details-box">
                 <div class="detail-item">
@@ -182,8 +207,9 @@
                 </div>
             </div>
 
-             <p style="font-size: 14px; color: #666;">
-                *Vagas limitadas para garantir a qualidade da interação.
+             <p style="font-size: 13px; color: #777; line-height: 1.5;">
+                *Vagas limitadas para garantir a qualidade da interação.<br>
+                <strong>*Bebidas à parte.</strong>
             </p>
 
             <div class="rsvp-button-container">
